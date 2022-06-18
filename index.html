@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="">
+
+    <head>
+        <meta charset="utf-8">
+        <title>Typing Test</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+
+    <body>
+
+        <!--    Desktop View    -->
+        <div id="container">
+            <h1 id="heading">Test your Typing Speed</h1>
+            <div id="stats">
+                <div id="wpm" class="green-box box-shadow">
+                    <div class="green-box-heading">WPM</div>
+                    <div id="wpm-stat" class="green-box-stat">8</div>
+                </div>
+                <div id="cpm" class="green-box box-shadow">
+                    <div class="green-box-heading">CPM</div>
+                    <div id="cpm-stat" class="green-box-stat">41</div>
+                </div>
+                <div id="errors" class="green-box box-shadow">
+                    <div class="green-box-heading">ERRORS</div>
+                    <div id="error-stat" class="green-box-stat">3</div>
+                </div>
+                <div id="time" class="green-box box-shadow">
+                    <div class="green-box-heading">TIME</div>
+                    <div id="time-stat" class="green-box-stat">44s</div>
+                </div>
+                <div id="accuracy" class="green-box box-shadow">
+                    <div class="green-box-heading">% ACCURACY</div>
+                    <div id="accuracy-stat" class="green-box-stat">100</div>
+                </div>
+            </div>
+            <div class="clear"></div>
+            <div id="target-text-holder"></div>
+            <div id="target-text" class="box-shadow">
+                The journeys sdf sd fsd fsdf sdf sd fsd fas das das d das
+            </div>
+            <div class="clear"></div>
+            <div id="text-input-holder"></div>
+            <textarea id="text-input" class="box-shadow" rows="2" placeholder="Start typing here..."></textarea>
+        </div>
+        <!--    Mobile View    -->
+        <div id="container-mobile">
+            <h1 id="heading-m">Test your Typing Speed</h1>
+            <div class="clear"></div>
+            <div id="target-text-holder-m"></div>
+            <div class="clear"></div>
+            <div id="text-input-holder-m"></div>
+        </div>
+        <button id="restart-btn" class="box-shadow">Restart</button>
+        <script src="js/main.js" type="module"></script>
+    </body>
+
+</html>
